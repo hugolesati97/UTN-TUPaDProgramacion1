@@ -80,30 +80,54 @@
 #     print("La suma de todos los numeros desde 0 hasta", numero, "es:", suma)
 
 #EJERCICIO 7
-cantidad_numeros = 5
-pares = 0
-impares = 0
-positivos = 0
-negativos = 0
+# cantidad_numeros = 100
+# pares = 0
+# impares = 0
+# positivos = 0
+# negativos = 0
 
-print("Por favor ingresa", cantidad_numeros, "numeros enteros")
-print("-" * 50)
+# print("Por favor ingresa", cantidad_numeros, "numeros enteros")
 
-for i in range(cantidad_numeros):
-    numero = int(input(f"Numero {i + 1}: "))
+# for i in range(cantidad_numeros):
+#     numero = int(input(f"Numero {i + 1}: "))
 
-    if numero % 2 == 0:
-        pares += 1
-    else:
-        impares += 1
+#     if numero % 2 == 0:
+#         pares += 1
+#     else:
+#         impares += 1
 
-    if numero < 0:
-        negativos += 1
-    elif numero > 0:
-        positivos+= 1
+#     if numero < 0:
+#         negativos += 1
+#     elif numero > 0:
+#         positivos+= 1
 
 
-print(f"Números pares:     {pares}")
-print(f"Números impares:   {impares}")
-print(f"Números positivos: {positivos}")
-print(f"Números negativos: {negativos}")
+# print(f"Números pares:     {pares}")
+# print(f"Números impares:   {impares}")
+# print(f"Números positivos: {positivos}")
+# print(f"Números negativos: {negativos}")
+
+#EJERCICIO 9
+# cantidad_numeros = 100
+# numeros = []
+# print("Por favor ingresa", cantidad_numeros, "numeros enteros")
+
+# for i in range(cantidad_numeros):
+#     numero = int(input(f"Numero {i + 1}: "))
+#     numeros.append(numero)
+
+# media = sum(numeros) / len(numeros)
+
+# print("RESULTADOS")
+# print("Cantidad de numeros ingresados:", len(numeros))
+# print("La suma total de los numeros:", sum(numeros))
+# print("El promedio es:", media)
+
+#EJERCICIO 10
+# numero = input("Ingrese un numero: ")
+# numero_invertido = ""
+
+# for i in range (len(numero)-1,-1,-1):
+#     numero_invertido += numero[i]
+
+# print("El numero invertido es", numero_invertido)
